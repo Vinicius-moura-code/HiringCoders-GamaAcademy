@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tabelas</title>
+  <style>
+    body {
+
+      font-family: Helvetica;
+      color: black;
+      font: bolder;
+    }
+
+    table {
+      font-family: Helvetica;
+      color: black;
+      font: bolder;
+      text-align: center;
+    }
+
+  </style>
+</head>
+
+<body>
+  <h1>Criando tabelas</h1>
+  <hr width="100%">
+  <img src="carref.png" width="15%">
+
+  <table border="1" width="1000px">
+    <tr>
+      <th width='10%'>Icon </th>
+      <th width='50%'>Item</th>
+      <th width='40%'>Quantidade</th>
+    </tr>
+
+    <tr>
+      <td><img src="carref.png" width="50%"></td>
+      <td>Arroz</td>
+      <td>5Kg</td>
+    </tr>
+
+    <tr>
+      <td><img src="carref.png" width="50%"></td>
+      <td>Feijão</td>
+      <td>2Kg</td>
+    </tr>
+
+    <tr>
+      <td><img src="carref.png" width="50%"></td>
+      <td>Café</td>
+      <td>10Kg</td>
+    </tr>
+
+  </table>
+</body>
+
+</html>

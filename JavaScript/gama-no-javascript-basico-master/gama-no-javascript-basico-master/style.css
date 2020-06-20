@@ -1,0 +1,9 @@
+.formulario {
+  margin-top: 5%;
+}
+body, .container{
+  background-color: black;
+}
+*{
+  color: white;
+}

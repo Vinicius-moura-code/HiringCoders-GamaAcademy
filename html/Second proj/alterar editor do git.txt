@@ -1,0 +1,105 @@
+git config --global core.editor "  "
+git config --global 
+pwd -  exibe onde vc esta
+cd +local - muda o diretotio
+touch pasta/"exemplo"
+ls - mostra os dados
+git status
+git log //verifica o historico de alteraçoes nos arquivos
+git add aquivo
+git add .   //seleciona todos arquivos do diretorio, e avisa o git que vai ter commit dos arquivos
+git commite -m "coment"
+git branch feature/XXXXXXXXXXXX-XXXXX // Feature is a adj.// branch é uma linha no tempo
+git checkout feature/XXXXXXXXXXX-XXXX  
+
+voltar para linha do tempo principal:
+git checkou master
+
+unindo linhas do tempo:
+git merge feature/xxxxxxxxxx-xxxxx
+git status
+git log
+git show f3ca23b7db66673abb57e0ab4521d754c66b5a3e // vai mostrar as alterações feitas noc comits
+
+remover uma BRANCH
+git branch -D feature/XXXXXXXXX-XXXXX
+git branch  // exibe todas as alterações, ramificaçoes e arquivos que foram editados
+
+revisão
+git init -> inicia nosso versionamento
+git add -> adiciona ou modifica alterações elegiveis para nosso ponto no tempo
+git commit -> adiciona nosso ponto na linha do tempo
+git log -> vizualiza os pontos na linha do tempo
+git status -> informa estado atual de alterações
+git show -> apresenta um ponto indicado na linha do tempo
+
+git branch: gerencia nossas realidades alternativas
+git checkout -> navega entre nossas realidades
+git merge --> une nossas linhas do tempo
+git push -> envia nossas alterações para um repositório [github]
+
+git checkout -b altconf -> Cria uma 'Branch' realidade e migra automaticamente para ela.
+git checkout master -> Volta para o Branch principal
+git clone -> clonar um projeto de um repositorio remoto
+git pull -> atualiza seu repositorio a partir do seu repositorio remoto
+
+branch exemplo, criando:
+git checkout -b gama/mr_Vinicius
+//Switched to a new branch 'gama/Mr_Vinicius'
+
+git branch options:
+ git branch --b gama/
+error: unknown option `b'
+usage: git branch [<options>] [-r | -a] [--merged | --no-merged]
+   or: git branch [<options>] [-l] [-f] <branch-name> [<start-point>]
+   or: git branch [<options>] [-r] (-d | -D) <branch-name>...
+   or: git branch [<options>] (-m | -M) [<old-branch>] <new-branch>
+   or: git branch [<options>] (-c | -C) [<old-branch>] <new-branch>
+   or: git branch [<options>] [-r | -a] [--points-at]
+   or: git branch [<options>] [-r | -a] [--format]
+
+Generic options
+    -v, --verbose         show hash and subject, give twice for upstream branch
+    -q, --quiet           suppress informational messages
+    -t, --track           set up tracking mode (see git-pull(1))
+    -u, --set-upstream-to <upstream>
+                          change the upstream info
+    --unset-upstream      unset the upstream info
+    --color[=<when>]      use colored output
+    -r, --remotes         act on remote-tracking branches
+    --contains <commit>   print only branches that contain the commit
+    --no-contains <commit>
+                          print only branches that don't contain the commit
+    --abbrev[=<n>]        use <n> digits to display SHA-1s
+
+Specific git-branch actions:
+    -a, --all             list both remote-tracking and local branches
+    -d, --delete          delete fully merged branch
+    -D                    delete branch (even if not merged)
+    -m, --move            move/rename a branch and its reflog
+    -M                    move/rename a branch, even if target exists
+    -c, --copy            copy a branch and its reflog
+    -C                    copy a branch, even if target exists
+    -l, --list            list branch names
+    --show-current        show current branch name
+    --create-reflog       create the branch's reflog
+    --edit-description    edit the description for the branch
+    -f, --force           force creation, move/rename, deletion
+    --merged <commit>     print only branches that are merged
+    --no-merged <commit>  print only branches that are not merged
+    --column[=<style>]    list branches in columns
+    --sort <key>          field name to sort on
+    --points-at <object>  print only branches of the object
+    -i, --ignore-case     sorting and filtering are case insensitive
+    --format <format>     format to use for the output
+Instagram.com - 52.0.103.197 - 
+Instagram.com - 52.0.37.128 -
+Instagram.com - 52.70.163.241 -
+
+157.240.222.174
+2.23.140.1.2.2
+2.16.840.1.114412.1.1
+ Creio que já vi bem mais do que esperava, estou muito contente com a didatica.
+Aprendi bastante nas aulas, conheci Git e pude perceber sua importância e quantas vezes 
+trabalharamos com a ferramenta. Espero aconpanhar o curso, ober metas pessoais e entregar os resultados esperado.
+

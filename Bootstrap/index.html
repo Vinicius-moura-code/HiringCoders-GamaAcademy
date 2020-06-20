@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="pt-pr">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+  <title>First bootstrap</title>
+</head>
+
+<body>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <h3>My first page</h3>
+      </div>
+    </div>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand" href="#">Imperium</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Home</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Sobre</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Saiba mais</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Contato</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <!-- <div class="row">
+      <div class="col-md-3">
+        home
+      </div>
+      <div class="col-md-3">
+        Sobre
+      </div>
+      <div class="col-md-3">
+        Saiba mais
+      </div>
+      <div class="col-md-3">
+        Contato
+      </div>
+    </div>-->
+    <div class="row" id="imgdalogo">
+      <div class="col-md-12">
+        <img id="logoimp" src="imperium.jpg" alt="">
+      </div>
+    </div>
+    <div class="row" id="destaques">
+      <div class="col-md-12">
+        <h3>Nossos destaques</h3>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-md-4">
+        <div class="card" style="width: 18rem;">
+          <img src="carref.png" class="card-img-top" alt="...">
+          <h5 class="card-title">$ 10.00</h5>
+          <h6 class="card-subtitle mb-2 text-muted">Caixa</h6>
+          <div class="card-body">
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+              content.</p>
+            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+              <p></p> I Want</p>
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card" style="width: 18rem;">
+          <img src="carref.png" class="card-img-top" alt="...">
+          <h5 class="card-title">$ 20.00</h5>
+          <h6 class="card-subtitle mb-2 text-muted">Caixa</h6>
+          <div class="card-body">
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+              content.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card" style="width: 18rem;">
+          <img src="carref.png" class="card-img-top" alt="...">
+          <h5 class="card-title">$ 30.00</h5>
+          <h6 class="card-subtitle mb-2 text-muted">Caixa</h6>
+          <div class="card-body">
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+              content.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-md-6" id="redes">
+        <p class="fot"><img
+            src="https://i2.wp.com/multarte.com.br/wp-content/uploads/2018/11/logo-whatsapp-fundo-transparente-icon.png?fit=980%2C980&ssl=1"
+            width="30px"> Whats</p>
+        <p class="fot"><img
+            src="https://i2.wp.com/multarte.com.br/wp-content/uploads/2018/11/logo-whatsapp-fundo-transparente-icon.png?fit=980%2C980&ssl=1"
+            width="30px"> Facebok</p>
+        <p class="fot"><img
+            src="https://i2.wp.com/multarte.com.br/wp-content/uploads/2018/11/logo-whatsapp-fundo-transparente-icon.png?fit=980%2C980&ssl=1"
+            width="30px"> Mensage</p>
+        <p class="fot"><img
+            src="https://i2.wp.com/multarte.com.br/wp-content/uploads/2018/11/logo-whatsapp-fundo-transparente-icon.png?fit=980%2C980&ssl=1"
+            width="30px"> twitter</p>
+      </div>
+      <div class="col-md-6" id="contato">
+        <p>
+          <h3>Novidades</h3>
+          <form>
+            <div class="form-group">
+              <label for="exampleInputEmail1">Email address</label>
+              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+              <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+
+          </form>
+        </p>
+      </div>
+    </div>
+
+    <!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        ollppo
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Yes, i want</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+    integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+    integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+    crossorigin="anonymous"></script>
+
+</body>
+
+</html>

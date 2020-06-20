@@ -1,0 +1,77 @@
+/*<footer>May the force be with you
+<a href="https://www.youtube.com/watch?v=VH83SsL_fIQ"> <br><img src="bb.png" width="60px"></a>
+</footer>*/
+p{
+  color: #000000;
+  font-size: 18px;
+  font-weight: bolder;
+  font-family: Helvetica, Arial;
+  text-align: justify;
+}
+body{
+  background-image: url('imperator.jpg');
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  font-family: Helvetica, Arial;
+}
+
+header{
+  background-color: #35b8b0;
+  height: 70px;
+  padding: 30px;
+  margin: 0.8px;
+}
+
+h1{
+  color: #FF7F50;
+  text-align: center;
+  text-shadow: 1px 1px 1px #111111;
+  margin: 0 0 50px 0;
+}
+
+footer{
+  clear: both;
+  background-color: #35b8b0;
+  height: 50px;
+  text-align:center;
+  padding: 15px;
+  font-weight: bolder;
+}
+
+#first{
+  background-image: url('imagens/imperium.jpg');
+  background-size: 100%;
+  min-height: 400px;
+  padding: 80px 0 0 0;
+}
+#ss{
+  float: left;
+  padding: 5px;
+}
+#menu{
+  margin-top: 25px;
+  float: right;
+}
+#menu a{
+  padding: 58px 20px;
+  text-decoration: none;
+  color: #000000;
+  text-shadow: 1px 1px 1px #111111;
+}
+#menu a:hover{
+  background-color: mediumaquamarine;
+  color: white;
+}
+
+.countainer{
+  width: 980px;
+  margin: 0 auto;
+}
+
+.efeito{
+  background-color: rgba(0, 0, 0, 0.2);
+  padding: 60px 0 50px 0;
+}
