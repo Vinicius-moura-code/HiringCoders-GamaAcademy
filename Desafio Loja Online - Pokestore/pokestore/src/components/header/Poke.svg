@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Creator: CorelDRAW 2020 (64 Bit Versão de avaliação) -->
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="311.475mm" height="39.6874mm" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+viewBox="0 0 31147.54 3968.74"
+ xmlns:xlink="http://www.w3.org/1999/xlink"
+ xmlns:xodm="http://www.corel.com/coreldraw/odm/2003">
+ <defs>
+  <font id="FontID0" horiz-adv-x="667" font-variant="normal" style="fill-rule:nonzero" font-style="normal" font-weight="400">
+	<font-face 
+		font-family="Arial">
+		<font-face-src>
+			<font-face-name name="Arial"/>
+		</font-face-src>
+	</font-face>
+   <missing-glyph><path d="M0 0z"/></missing-glyph>
+   <glyph unicode="!" horiz-adv-x="277" d="M112.999 178l-27.0001 379.337 0 158.66 109.004 0 0 -158.66 -25.0022 -379.337 -57.0012 0zm-22.9962 -178l0 100.001 100.996 0 0 -100.001 -100.996 0z"/>
+  </font>
+  <style type="text/css">
+   <![CDATA[
+    @font-face { font-family:"Arial";font-variant:normal;font-style:normal;font-weight:normal;src:url("#FontID0") format(svg)}
+    .fil0 {fill:white}
+    .fnt0 {font-weight:normal;font-size:1236.29px;font-family:'Arial'}
+   ]]>
+  </style>
+     <clipPath id="id0">
+      <rect x="20700.58" width="10430.7" height="3968.75"/>
+     </clipPath>
+     <clipPath id="id1">
+      <path d="M20700.58 3968.75l10430.69 0 0 -3968.74 -10430.69 0 0 3968.74z"/>
+     </clipPath>
+     <clipPath id="id2">
+      <rect x="20700.58" width="10430.7" height="3968.75"/>
+     </clipPath>
+     <clipPath id="id3">
+      <rect x="10325.85" width="10430.7" height="3968.75"/>
+     </clipPath>
+     <clipPath id="id4">
+      <rect x="-16.29" width="10430.7" height="3968.75"/>
+     </clipPath>
+     <clipPath id="id5">
+      <path d="M-16.29 3968.75l10430.69 0 0 -3968.74 -10430.69 0 0 3968.74z"/>
+     </clipPath>
+     <clipPath id="id6">
+      <rect x="-16.29" width="10430.7" height="3968.75"/>
+     </clipPath>
+ </defs>
+ <g id="Camada_x0020_1">
+  <metadata id="CorelCorpID_0Corel-Layer"/>
+  <g id="_2686145991280">
+   <g>
+    <g style="clip-path:url(#id0)">
+    </g>
+    <g style="clip-path:url(#id1)">
+     <image id="Poke.png" x="20700.57" y="0.01" width="10430.7" height="3968.74" xlink:href="Poke_Images\Poke_ImgID1.png"/>
+    </g>
+    <g style="clip-path:url(#id2)">
+    </g>
+    <g style="clip-path:url(#id3)">
+     <image id="Poke.png_0" x="10325.85" y="0.01" width="10430.7" height="3968.74" xlink:href="Poke_Images\Poke_ImgID2.png"/>
+    </g>
+    <g style="clip-path:url(#id4)">
+    </g>
+    <g style="clip-path:url(#id5)">
+     <image id="Poke.png_1" x="-16.3" y="0.01" width="10430.7" height="3968.74" xlink:href="Poke_Images\Poke_ImgID3.png"/>
+    </g>
+    <g style="clip-path:url(#id6)">
+    </g>
+   </g>
+   <text x="20582.86" y="2426.97"  class="fil0 fnt0">!</text>
+  </g>
+ </g>
+</svg>

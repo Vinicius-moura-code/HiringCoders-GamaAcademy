@@ -1,0 +1,21 @@
+header#main-header {
+  background-image: url('./Pok.png');
+  background-attachment: fixed;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  border-radius: 20px;
+  height: 100px;
+  width: 100%;
+  font-size: 18px;
+  font-weight: bold;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media only screen and (max-width: 1069px) {
+  header#main-header{
+    border-radius: 8%;
+  }
+}
