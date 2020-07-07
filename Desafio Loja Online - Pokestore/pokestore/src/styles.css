@@ -8,5 +8,6 @@
 body {
   font-family: Arial, Helvetica, sans-serif;
   background-image: url('http://wallpapercave.com/wp/pY2ADpc.jpg');
+  background-attachment: fixed;
   color: #333;
 }

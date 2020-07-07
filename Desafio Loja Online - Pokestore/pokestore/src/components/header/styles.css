@@ -3,6 +3,7 @@ header#main-header {
   background-attachment: fixed;
   background-size: 100%;
   background-repeat: no-repeat;
+  opacity: 0.7;
   border-radius: 20px;
   height: 100px;
   width: 100%;
