@@ -10,17 +10,20 @@
 - Objetivos do Curso
 - Como começar
 - Dicas
+
 **Lógica de Programação**
 - Algorítimos
 - Variáveis e Operações
 - Decisões
 - Repetições
+
 **Metodologias Ágeis**
 - Scrum: O que é e para que serve
 - Papéis
 - Eventos
 - Artefatos e Refinamento
 - Kanban e Extreme Programming
+
 **GIT**
 - Versionamento: Principais Ferramentas
 - Init Add Commit
@@ -36,6 +39,7 @@
 - Listas e Tabela
 - Divisões I
 - Divisões II
+
 **CSS**
 - Tag Style
 - Atributos
@@ -43,13 +47,15 @@
 - Classes, Tags e IDs
 - Classes, Tags e IDs II
 - Animações em CSS
-- Bootstrap
+
+**Bootstrap**
 - Bootstrap: O que é e para que serve
 - Introdução e NavBar
 - CSS no Bootstrap
 - Bootstrap Cards
 - Formulários e Modais
 - Layout
+
 **Estrutura de Dados**
 - Introdução
 - Pilhas I
@@ -59,6 +65,7 @@
 - Busca II
 - Algorítimos de Ordenação I
 - Algorítimos de Ordenação II
+
 **Javascript Básico**
 - Introdução ao Javascript
 - Números e Operações
@@ -73,12 +80,14 @@
 - Validador de CPF III
 - Validador de CPF IV
 - Validador de CPF V
+
 **Javascript Intermediário**
 - Template String
 - Operador Ternário e Arrow Functions
 - Spread
 - Desestruct e Match
 - SPA, PWA e WebComponents
+
 **React**
 - Boas-Vindas
 - Por que React?
@@ -98,6 +107,7 @@
 - Construindo o Plano Macro
 - Criando o seu perfil vencedor
 - Estratégia de aquisição de propostas
+
 **Node.JS I**
 - Introdução e Objetivos
 - O que aprenderei?
@@ -137,6 +147,7 @@
 - Read II
 - Update II
 - Delete II
+
 **Node.JS II**
 - Introdução ao MongoDB
 - Conhecendo operadores MongoDB
@@ -169,6 +180,7 @@
 - PM2 Key Metrics
 - Expondo métricas de cobertura de código com Istambuljs
 - Próximos Passos
+
 **Typescript**
 - Introdução
 - Instalando e Usando Typescript
@@ -183,6 +195,7 @@
 - Configurando o Target do Typescript
 - Utilizando Modificadores de Acesso
 - Herança
+
 **GraphQL**
 - Apresentação e Introdução
 - Modelo Cliente e Servidor
@@ -209,6 +222,7 @@
 - Apollo Client e Apollo DevTools
 - hook useQuery e paginação
 - hook useMutation
+
 **Testes**
 - O que testar, por que testar, como testar?
 - Test Driven Development (TDD)
