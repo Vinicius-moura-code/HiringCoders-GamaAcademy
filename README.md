@@ -40,6 +40,13 @@
 - Divisões I
 - Divisões II
 
+**HTML**
+- Ferramentas e Estrutura
+- Tags
+- Listas e Tabela
+- Divisões I
+- Divisões II
+
 **CSS**
 - Tag Style
 - Atributos
