@@ -1,0 +1,14 @@
+**Typescript**
+- Introdução
+- Instalando e Usando Typescript
+- Tipos Básicos
+- Tipo Never
+- Múltiplos Tipos com Union Types
+- Type Alias
+- Valores nulos ou opcionais
+- Type Assertion
+- Interfaces
+- Classes
+- Configurando o Target do Typescript
+- Utilizando Modificadores de Acesso
+- Herança
