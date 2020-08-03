@@ -1,0 +1,4 @@
+- - Evolução natural no desenho de arquitetura de software
+- - Aprofundamento em https://martinfowler.com/articles/micro-frontends.html
+- - Crie provfas de conceito https://single-spa.js.org/
+

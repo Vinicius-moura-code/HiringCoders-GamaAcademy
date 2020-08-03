@@ -1,0 +1,14 @@
+- - Padrão arquitetural que divide os elementos da nossa apliicação em três camadas
+- - - Modelo
+- - - - Gerenciar as Entidades do nosso sistema
+- - - - Lidar com informações da nossa aplicação
+- - - - Receber, tratar e validar todos os dados
+- - - - Conectar a base de dados
+- - - Visão
+- - - - Camada de interpletação do usuário com o sistema
+- - - - Redenteriza componentes que fazem parte da experiencia da aplicação
+- - - Controlador
+- - - - Recebe requisições e eventos do usuário, trata-las e responder-las
+- - - - Requer ao Model os dados necessários
+- - - - Encaminha a resposta do Model para o View
+- - - - Captura dados na View e encaminha para o Model 

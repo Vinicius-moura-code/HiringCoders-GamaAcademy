@@ -1,0 +1,15 @@
+- - Padrão arquitetural que divide os elementos da nossa apliicação em três camadas
+- - - Modelo
+- - - - Regra de negócio
+- - - - Encapsula dados
+- - - - Prover notificações através da interface (INotifyPropertyChanged)
+- - - Visão
+- - - - Camada de interação do usuário com o sistema
+- - - - Redenteriza componentes que fazem parte da experiencia da aplicação
+- - - - Define aparencia e estrutura do que o usuário vizualiza na tela
+- - - - Normalmente contém um Code-Behind sobre a lógica dessa interface
+- - - - Deve possuir um Binding Context indicando qual ViewModel está referenciada
+- - - ViewMode
+- - - - Trata lógica de controles
+- - - - Não conhece a View
+- - - - Lnça notificações de estado ou alterações (OnNotifyPropertyChanged)

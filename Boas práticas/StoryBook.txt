@@ -1,0 +1,7 @@
+- - Ferramenta para preparar o ambiente de desinvolvimento de components de UI
+- - Permite desenvolver de forma isolada componentes de interfaces
+- - Integrado os principais frameworks frontend utilizados ( VueJS, Angular, React)
+- - Possibilidade de trabalhar com addons, adicionando mais funcionalidadeds
+- - Exibe na interface erros de sintaxe
+
+ storybook.js.org/docs/guides/guide-react/

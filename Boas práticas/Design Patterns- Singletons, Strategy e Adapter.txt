@@ -1,0 +1,19 @@
+- - Singleton
+- - - Padrão de projeto do tipo CREATIONAL
+- - - Garante que existe apenas uma instância de uma classe
+- - - Prove acesso global por toda a aplicação em um único ponto
+
+- - Strategy
+- - - Padrão de projeto do tipo BEHAVIORAL
+- - - POde definir uma série de algoritmos diferentes cada um separado em suas 
+devidas classes mas pode ser intercambiáveis
+- - - Exemplo: https://github.com/jcbombardelli/gama-nas-boas-praticas/tree/master/Strategy
+
+- - Adapter
+- - - Padrão de projeto do tipo STRUCTURAL
+- - - Serve para "adaptar" nossa implementação já existente a um novo cenário 
+diferente daquele originalmente desenhado
+- - - AJUDA muito quando precisamos utilizar integraçôes com serviçoes terceiros
+(WebService do governo por exemplo)
+- - - Exemplo: https://github.com/jcbombardelli/gama-nas-boas-praticas/tree/master/adapter
+

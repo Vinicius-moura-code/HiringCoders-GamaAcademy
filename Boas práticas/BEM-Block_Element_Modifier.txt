@@ -1,0 +1,134 @@
+- Metodologia para ajudar o desenvolvedor a criar componentes reutilizaveis e
+ facilmente aompartilhados dentro do front-end.
+- Simples se ser implantado, pois basta seguir a convenção de nomes
+- POssivel criar blocos modularizados dentro do seu código fonte.
+- Mais exenplos no getbem.com 
+
+Block - ELement - Modifier
+
+
+Introdução
+Em sites de folhetos menores, como você organiza seus estilos geralmente não é 
+uma grande preocupação. Você entra lá, escreve um pouco de CSS, ou talvez até 
+um pouco de SASS. Você compila tudo em uma única folha de estilo com as configu-
+rações de produção da SASS, e então você agrega-lo para obter todas as folhas de
+ estilo de módulos em um pacote agradável e arrumado.
+
+No entanto, quando se trata de projetos maiores e mais complexos, como você
+organiza seu código é a chave para a eficiência em pelo menos essas três 
+maneiras: afeta quanto tempo você leva para escrever código, quanto desse código
+você terá que escrever e quanto carregamento seu navegador terá que fazer. Isso
+se torna especialmente importante quando você está trabalhando com equipes de 
+temáticas, e quando o alto desempenho é essencial.
+
+Isso também é verdade para projetos de longo prazo com código legado (leia "Como Escalar e Manter CSS Legado com Sass e SMACSS" — alguns SMACSS e BEM misturados agradávels lá).
+
+Metodologias
+Existem muitas metodologias por aí com o objetivo de reduzir a pegada CSS, organizar a cooperação entre os programadores e manter grandes bases de códigos CSS. Isso é óbvio em grandes projetos como Twitter, Facebook e Github,mas outros projetos muitas vezes crescem em algum estado de "arquivo CSS enorme" muito rapidamente.
+
+OOCSS
+Separação de contêiner e conteúdo com "objetos" CSS
+SMACSS
+Guia de estilo para escrever seu CSS com cinco categorias para regras CSS
+SUITCSS
+Nomes de classe estruturados e hífens significativos
+Atômica
+Quebrando estilos em peças atômicas, ou indivisíveis
+Por que BEM sobre os outros?
+Não importa qual metodologia você escolha usar em seus projetos, você se beneficiará das vantagens de CSS e UI mais estruturados. Alguns estilos são menos rigorosos e mais flexíveis, enquanto outros são mais fáceis de entender e se adaptar em uma equipe.
+
+A razão pela qual eu escolho BEM em vez de outras metodologias se resume a isso:
+ é menos confuso do que os outros métodos (ou seja, SMACSS), mas ainda nos 
+ fornece a boa arquitetura que queremos (ou seja, OOCSS) e com uma terminologia 
+ reconhecível.
+
+Mark McDonnell, CSS mantenedor com BEM
+Blocos, Elementos e Modificadores
+Você não ficará surpreso ao saber que o BEM é uma abreviação dos elementos-chave da metodologia — Block, Element e Modifier. As regras estritas de nomeação da BEM podem ser encontradas aqui.
+
+Bloco
+Entidade autônoma que é significativa por si só.
+
+Exemplos
+header, , , , containermenucheckboxinput
+Elemento
+Uma parte de um bloco que não tem significado autônomo e está semanticamente 
+ligada ao seu bloco.
+
+Exemplos
+menu item, , , list itemcheckbox captionheader title
+Modificador
+Uma bandeira em um bloco ou elemento. Use-os para mudar a aparência ou o comportamento.
+
+Exemplos
+disabled, , , , , highlightedcheckedfixedsize bigcolor yellow
+
+Sob o capô
+Vejamos como um elemento em particular em uma página pode ser implementado no 
+BEM. Vamos tirar do GitHub:button
+
+
+Podemos ter um botão normal para casos usuais, e mais dois estados para
+ diferentes. Como estilizamos blocos por seletores de classe com BEM, podemos
+  implementá-los usando todas as tags que quisermos (, ou mesmo ). As regras 
+	de nomeação nos dizem para usar a sintaxe.buttonadivblock--modifier-value
+
+Html
+<button class="button">
+	Normal button
+</button>
+<button class="button button--state-success">
+	Success button
+</button>
+<button class="button button--state-danger">
+	Danger button
+</button>
+Css
+.button {
+	display: inline-block;
+	border-radius: 3px;
+	padding: 7px 12px;
+	border: 1px solid #D5D5D5;
+	background-image: linear-gradient(#EEE, #DDD);
+	font: 700 13px/18px Helvetica, arial;
+}
+.button--state-success {
+	color: #FFF;
+	background: #569E3D linear-gradient(#79D858, #569E3D) repeat-x;
+	border-color: #4A993E;
+}
+.button--state-danger {
+	color: #900;
+}
+Benefícios
+Modularidade
+Os estilos de bloco nunca dependem de outros elementos em uma página, então você
+ nunca experimentará problemas de cascata.
+
+Você também tem a capacidade de transferir blocos de seus projetos acabados para novos.
+
+Reutilização
+Compor blocos independentes de diferentes maneiras e reusá-los de forma inteligente, reduz a quantidade de código CSS que você terá que manter.
+
+Com um conjunto de diretrizes de estilo em vigor, você pode construir uma biblioteca de blocos, tornando seu CSS super eficaz.
+
+Estrutura
+A metodologia BEM oferece ao seu código CSS uma estrutura sólida que permanece simples e fácil de entender.
+
+Leitura suplementar
+"Por que BEM?" em poucas palavras
+MindBEMding — recebendo sua cabeça 'rodada sintaxe BEM
+Diretrizes do CSS
+Metodologia BEM para pequenos projetos
+BEM It! para Brandwatch
+Usado e Abusado — Herança CSS e Nosso Mau Uso da Cascata.
+Objetos no Espaço — Um guia de estilo para o desenvolvimento de SASS modular usando SMACSS e BEM
+Como dimensionar e manter CSS legado com Sass e SMACSS
+Construindo um modular My Health Skills com BEM e Sass
+Construindo minhas habilidades de saúde — Parte 3
+Estudo de caso
+Esperamos escrever "Como migrar um projeto existente para o BEM" em breve. 
+Enquanto isso, você pode assistir a esta bela apresentação de Nicole Sullivan - 
+"CSS preprocessador performance". Ela dá uma visão geral muito boa dos problemas
+ que encontra na maioria dos sites e oferece maneiras de localizá-los e lidar com eles.
+

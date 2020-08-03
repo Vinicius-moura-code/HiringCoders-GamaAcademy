@@ -1,0 +1,20 @@
+- - Documento vivo de design com todos os componentes de um software
+- - Tem por objetivo aumentar a eficiencia dos designers no momento de especificação 
+- - Trás consistencia para os usuarios (inclusive desenvolvedores) com uma linguagem clara e unificada
+- - Deve ter um objetivo claro no momento de sua criação
+- - Não é obrigatório mas extremamente recomendavel que tenham referências de implementação
+
+
+Ex. Gama:  design-system.gama.academy
+
+Os sistemas de design permitem que as equipes construam produtos melhores mais rapidamente, tornando o design reutilizável — a reutilização torna a escala possível. Este é o coração e o valor primário dos sistemas de design. Um sistema de design é uma coleção de componentes reutilizáveis, guiados por padrões claros, que podem ser montados juntos para construir qualquer número de aplicações.
+
+Independentemente das tecnologias e ferramentas por trás delas, um sistema de design bem-sucedido segue esses princípios orientadores:
+
+É consistente. A forma como os componentes são construídos e gerenciados segue um padrão previsível.
+É autossuficiente. Seu sistema de design é tratado como uma dependência autônoma.
+É reutilizável.. Você construiu componentes para que eles possam ser reutilizados em muitos contextos.
+É acessível. Os aplicativos construídos com seu sistema de design são utilizáveis pelo maior número possível de pessoas, não importa como acessam a web.
+É robusto.. Não importa o produto ou plataforma para o qual seu sistema de design seja aplicado, ele deve executar com graça e bugs mínimos.
+Consistência
+Sua primeira tarefa mais importante ao iniciar é definir as regras do seu sistema, documentá-las e garantir que todos as sigam. Quando você documentou claramente padrões de código e práticas recomendadas em vigor, designers e desenvolvedores de toda a sua organização podem facilmente usar e, mais importante, contribuir para o seu sistema de design.

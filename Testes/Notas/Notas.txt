@@ -1,0 +1,16 @@
+TDD (Test-Driven Development ou Desenvolvimento Orientado a Testes)
+ &
+BDD Behavior Driven Development (BDD ou ainda uma tradução Desenvolvimento Guiado por Comportamento) => {
+	- Pipeline
+}
+
+integração Continua = C.I = Continuos integration
+deploy continuo = C.D = Continuos deploy
+
+
+Ferramentas:
+ - Jasmine -> TDD
+ - Cucumber  -> BDD --> Feature { Caso, Quando, Então }
+ - Selenium ↗
+ - Jest -> TDD
+ - Cypress -> BDD
